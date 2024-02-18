@@ -4,7 +4,7 @@ title: My first post
 date: 2024-02-11 21:41:16
 description: Test Posting
 tags: Testing
-categories: Test
+categories: diary
 ---
 
 첫 번째 포스팅입니다. 말은 안했지만 진짜 에러 엄청나네요^~^ 휴~
