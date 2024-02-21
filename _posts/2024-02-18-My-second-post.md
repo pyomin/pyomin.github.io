@@ -17,7 +17,7 @@ categories: diary
 아무래도 섹션2 쓰는것 보다는 흥미로웠던 것 같다.
 
 
-```ruby
+```bash
 bundle exec jekyll serve
 
 bundler: command not found: jekyll
@@ -31,14 +31,14 @@ Install missing gem executables with `bundle install`
 첫번째로는 손상된 번들 파일이 있는지 확인해보았는데, 따로 파일이 없어서 루비 캐시 파일만 하나 삭제했다. 
 
 그리고 
-```
+```bash
 $ gem update --system
 ```
 으로 업데이트 후에 손상된 번들을 업데이트 하려고 했는데 루비 버전 문제가 발생했다.
 
 루비 버전은 rbenv로 관리를 해주는데, 분명히 저번에.. 버전을 설치하고 세팅을 해주었는데
 
-```
+```bash
 zsh: command not found: rbenv
 ```
 
@@ -49,7 +49,7 @@ zsh: command not found: rbenv
 
 rbenv를 뭐로 설치했었는지를 확인해봤더니 homebrew로 설치했던 기록이 있어서 brew 명령어를 입력해봤다. 
 
-```ruby
+```bash
 zsh: command not found: brew
 ```
 command not found 였다. 그래서 여기서 부터 다시 세팅을 해주었다. 
@@ -63,7 +63,7 @@ $ eval $(/opt/homebrew/bin/brew shellenv)
 이제 rbenv도 정상적으로 명령어로 인식이 된다. 
 다시
 
-```
+```bash
 $ sudo gem update --system
 ```
 해보면 아직 루비 버전 관련 에러가 발생한다.  
@@ -87,17 +87,16 @@ zshrc를 이렇게 수정해주었다.
 [[ -d ~/.rbenv  ]] && \
   export PATH=${HOME}/.rbenv/bin:${PATH} && \
   eval "$(rbenv init -)"
-
 ```
 
 명령어 적용은 
-```
+```bash
 $ source ~/.zshrc
 ```
 
 이제 루비 버전도 맞추어졌다. 
 
-```
+```bash
 $ sudo gem update bundler
 $ bundle install
 ```
@@ -112,7 +111,7 @@ $ bundle install
 ~/.zprofile을 만들어서 
 
 
-```
+```bash
 $ echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/pyomin/.zprofile
 ```
 
