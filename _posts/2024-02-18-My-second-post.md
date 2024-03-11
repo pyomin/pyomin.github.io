@@ -42,7 +42,7 @@ $ gem update --system
 zsh: command not found: rbenv
 ```
 
-오류만 날 뿐이었다.  
+command not found 라고 한다.  
 
 확인해보니 설치된 적이 분명히 있는데..?? 설정에서 뭔가 반영이 안되었나..? 싶어서   
 경로 잘 확인해서 zshrc 파일에 반영해 주었는데도 같은 오류가 발생했다.    
