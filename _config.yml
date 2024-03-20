@@ -121,7 +121,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Essay # blog_name will be displayed in your blog page
+blog_name: Daily Life & Emotional Journal # blog_name will be displayed in your blog page
 blog_description: The essays are written in Korean #for me to facilitate my precise comprehension.
 permalink: /blog/:year/:title/
 
