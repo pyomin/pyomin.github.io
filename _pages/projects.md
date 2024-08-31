@@ -5,7 +5,7 @@ permalink: /projects/
 description: It is a record of my projects and lessons learned.
 nav: true
 nav_order: 3
-display_categories: [work, interest]
+display_categories: [work, interes, init]
 horizontal: false
 ---
 
