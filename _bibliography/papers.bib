@@ -21,9 +21,6 @@
   selected={false}
   }
 
-
-
-
 @INPROCEEDINGS{Adv2Adv,
   abstract={A number of denoising-based methods have been proposed to defend against adversarial fingerprint attacks. However, these methods inherently rely on having a clean image that corresponds to each adversarial fingerprint image. In this paper, we propose a novel denoising-based defense method without the need for clean fingerprint images. Our approach leverages a Noise2Noise mechanism, which performs denoising based on the noisy dataset. This enables us to effectively eliminate any adversarial noise that may be embedded in fingerprint images without training on clean fingerprint images. The experimental results on real-world datasets confirm that our method is robust against untrained adversarial fingerprint attacks while outperforming existing methods.},
   bibtex_show={true},
@@ -56,7 +53,7 @@
   selected={false}
   }
 
-  @ARTICLE{diprecon,
+  @ARTICLE{DipRecon,
   abstract={Recently, deep learning-based biometric authentication systems, especially fingerprint authentication, have been used widely in real-world. However, these systems are vulnerable to adversarial attacks which prevent deep learning models from distinguishing input data properly. To solve these problems, various defense methods have been proposed, especially utilizing denoising mechanisms, but they provided limited defense performance. In this study, we proposed a new defense method against adversarial fingerprint attacks. To ensure defense performance, we have introduced Deep Image Prior mechanism which has superior performance in image reconstruction without prior training and a large amount of dataset. The proposed method aims to remove adversarial perturbations of the input fingerprint image and reconstruct it close to the original fingerprint image by adapting Deep Image Prior. Our method has achieved robust defense performance against various types of adversarial fingerprint attacks across different datasets, encompassing variations in sensors, shapes, and materials of fingerprint images. Furthermore, our method has demonstrated that it is superior to other image reconstruction methods.},
   bibtex_show={true},
   author={Yoo, Hwajung and Hong, Pyo Min and Kim, Taeyong and Yoon, Jung Won and Lee, Youn Kyu},
@@ -68,14 +65,29 @@
   pages={78713-78725},
   keywords={Fingerprint recognition;Image reconstruction;Image matching;Perturbation methods;Electronics packaging;Noise reduction;Generative adversarial networks;Deep learning;Biometrics (access control);Computer security;Authentication;Adversarial attack defense;image reconstruction;fingerprint authentication system;deep learning;denoising;deep image prior},
   doi={10.1109/ACCESS.2023.3299862},
-  preview={DIP.png},
+  preview={DIP_preview.png},
   html={http://ieeexplore.ieee.org/abstract/document/10196440},
   selected={true}
   }
 
+@ARTICLE{RiskAnalysis,
+  abstract={Recent threats to deep learning-based biometric authentication systems stem from adversarial attacks exploiting vulnerabilities in deep learning models. While existing studies extensively analyze the risk of such attacks, they primarily focus on isolated modules (e.g., liveness detectors or identity matchers) or specific adversarial attack types (e.g., evasion and poisoning attacks). In this paper, we introduce a novel approach that comprehensively assesses the risk of adversarial attacks by simulating multiple scenarios within biometric authentication systems. We identify the surfaces susceptible to adversarial attacks within these systems and devise scenarios that reflect the dependencies between modules. Moreover, we establish evaluation metrics to comprehensively assess the risk involved. Through a case study conducted on a real-world face recognition system, we successfully demonstrate the effectiveness of our approach. Our approach facilitates the systematic evaluation of the security of target biometric authentication systems against adversarial attacks. Ultimately, it enables the establishment of robust and proactive defense mechanisms.},
+  author={Park, Seong Hee and Lee, Soo-Hyun and Lim, Min Young and Hong, Pyo Min and Lee, Youn Kyu},
+  bibtex_show={true},
+  journal={IEEE Access}, 
+  title={A Comprehensive Risk Analysis Method for Adversarial Attacks on Biometric Authentication Systems}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={116693-116710},
+  keywords={Biometrics (access control);Authentication;Biological system modeling;Detectors;Training;Databases;Deep learning;Adversarial machine learning;Risk management;Adversarial attack;adversarial attack scenarios;biometric authentication system;comprehensive risk analysis;deep learning},
+  doi={10.1109/ACCESS.2024.3439741},
+  preview={analysis3.png},
+  html={https://ieeexplore.ieee.org/document/10630524},
+  selected={true}
+  }
 
-
-@article{velcro,
+@article{Velcro,
   abstract={The development and deployment of deep learning models are currently limited to expert developers due to the requirement for programming expertise, posing challenges for non-expert or inexperienced developers. In this paper, we present VELCRO, a visual-based programming tool that enables intuitive construction, modification, analysis, and generation of deep learning models for both expert and non-expert developers. VELCRO allows users to understand and modify complex architectures of deep learning models using architecture abstraction, and verify architectures through automated architecture validation. Finally, users can convert the user-configured architecture into deep learning code and deploy it in target environments.},
   bibtex_show={true},
   preview={velcro.png},
@@ -89,3 +101,5 @@
   html={http://www.sciencedirect.com/science/article/pii/S235271102400027X},
   selected={true}
 }
+
+
