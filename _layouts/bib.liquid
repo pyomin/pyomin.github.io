@@ -52,7 +52,13 @@
 
       {% for author in entry.author_array limit: author_array_limit %}
         {% assign author_is_self = false %}
-        {% assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' %}
+        {% assign eq_contrib = false %}
+        {% assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '†' | remove: '^' %}
+        {% assign author_parts = author.last | split: '*' %}  
+        {% assign author_last_name = author_parts[0] %}
+        {% assign eq_contrib = author_parts.size > 1 %}
+
+
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -152,6 +158,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+
+    <!-- Honor display logic, always visible if present -->
+    {% if entry.honor %}
+      <div class="honor" style="color: #007bff;">{{ entry.honor }}</div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
