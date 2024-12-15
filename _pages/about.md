@@ -23,4 +23,4 @@ Hello, I am Pyomin Hong. I am currently pursuing a master’s degree in computer
 
 I am dedicated to exploring the impact of deep learning models and theories on our lives, particularly in areas like biometric systems. My research interests lie at the intersection of computer vision and AI security. Currently, I am engaged in research at <a href='https://ais.hongik.ac.kr'>AISLab</a> where I am fortunate to be advised by <a href='https://sites.google.com/usc.edu/taekim/'>Tae Hyung Kim</a> and <a href='https://sites.google.com/view/younkyul'>Youn Kyu Lee.</a>  
 
-Deep Learning Theory ·  Computer Vision   ·  AI Security ·  Inverse Problem
+Deep Learning ·  Computer Vision   ·  AI Security ·  Inverse Problem 
