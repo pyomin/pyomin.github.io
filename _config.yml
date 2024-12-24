@@ -121,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Daily Life & Emotional Journal # blog_name will be displayed in your blog page
-blog_description: The essays are written in Korean #for me to facilitate my precise comprehension.
+blog_name: Research Projects # blog_name will be displayed in your blog page
+blog_description: It is a record of my projects and lessons learned. #for me to facilitate my precise comprehension.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -181,7 +181,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 1 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

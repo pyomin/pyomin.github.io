@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper received the **Best AI Paper Award** at the 2024 15th ICTC
+Our paper received the **Best AI Paper Award** at the <a href='https://ictc.org/program_proceeding'>2024 15th ICTC</a>

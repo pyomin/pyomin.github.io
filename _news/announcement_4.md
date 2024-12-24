@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper received the **Best Paper Award** at the 2022 13th ICTC
+Our paper received the **Best Paper Award** at the <a href= 'https://2022.ictc.org/proceeding'>2022 13th ICTC</a>
 
 
 
