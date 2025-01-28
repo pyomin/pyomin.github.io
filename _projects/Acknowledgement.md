@@ -16,7 +16,7 @@ related_publications: false
 <br/>
 <br/>
 <br/>
-<!-- 
+
 <script src="https://giscus.app/client.js"
         data-repo="pyomin/pyomin.github.io"
         data-repo-id="R_kgDOLQ7qbw"
@@ -31,4 +31,4 @@ related_publications: false
         data-lang="ko"
         crossorigin="anonymous"
         async>
-</script>  -->
+</script> 
