@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Reliable Media Integrity & Representation Learning
-date: 2025-11-07 16:11:00-0400
+title: AI Systems for Real-World Deployment
+date: 2024-12-07 16:11:00-0400
 start: 2022
+end: 2024
 inline: false
 related_posts: false
 ---

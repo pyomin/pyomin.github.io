@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Reliable Media Integrity & Representation Learning
+title: Generative AI Security & Data-Centric Reliability
 date: 2025-11-07 16:11:00-0400
-start: 2022
+start: 2024
 inline: false
 related_posts: false
 ---

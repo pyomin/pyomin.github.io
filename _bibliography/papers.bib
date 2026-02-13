@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{hong2026dgmark,
+  abstract={We propose dgMARK, a decoding-guided watermarking method for discrete diffusion language models (dLLMs). Unlike autoregressive models, dLLMs can generate tokens in arbitrary order. While an ideal conditional predictor would be invariant to this order, practical dLLMs exhibit strong sensitivity to the unmasking order, creating a new channel for watermarking. dgMARK steers the unmasking order toward positions whose high-reward candidate tokens satisfy a simple parity constraint induced by a binary hash, without explicitly reweighting the model's learned probabilities. The method is plug-and-play with common decoding strategies (e.g., confidence, entropy, and margin-based ordering) and can be strengthened with a one-step lookahead variant. Watermarks are detected via elevated parity-matching statistics, and a sliding-window detector ensures robustness under post-editing operations including insertion, deletion, substitution, and paraphrasing.},
+  title={dgMARK: Decoding-Guided Watermarking for Diffusion Language Models}, 
+  author={Pyo Min Hong and Albert No},
+  journal={arXiv preprint},
+  preview={dgmark_mb.gif},
+  arxiv={2601.22985},
+  Website={https://dgMARK-watermarking.github.io},
+  year={2026},
+  selected={true}
+}
+
 @INPROCEEDINGS{Imgwaveform,
   abstract={To address the security threats posed by highly realistic deepfakes, various deepfake detection methods have been proposed. In particular, texture features resulting from the post-processing steps in deepfake generation, such as color correction and edge smoothing have been widely utilized in deepfake detection methods. However their detection method is limited against advanced image synthesis mechanisms. In this paper, we propose a novel deepfake detection method based on texture features, an Image Waveform. Our proposed method converts the pixel values of an image into an Image Waveform to enhance texture features and utilizes two-stream CNN to maximize deepfake detection performance by effectively leveraging the features of the original image. Experimental results of real-world deepfake dataset, confirmed that our proposed method achieves higher detection accuracy compared to existing texture feature-based detection methods.},
   author={Jhun, Ga San and Hong, Pyo Min and Lee, Keun and Ahn, Jong Hyun and Kim, Young Seon and Kang, Dongwoo and Lee, Youn Kyu},
@@ -56,7 +68,7 @@
   doi={10.1109/ACCESS.2024.3439741},
   preview={analysis3.png},
   html={https://ieeexplore.ieee.org/document/10630524},
-  selected={false}
+  selected={true}
   }
 
 @article{Velcro,
@@ -70,7 +82,7 @@
   year={2024},
   publisher={Elsevier},
   html={http://www.sciencedirect.com/science/article/pii/S235271102400027X},
-  selected={false}
+  selected={true}
 }
 
 @INPROCEEDINGS{Adv2Adv,

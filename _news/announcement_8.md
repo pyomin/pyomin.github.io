@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Reliable Media Integrity & Representation Learning
+title: Robust & Secure Perception Systems
 date: 2025-11-07 16:11:00-0400
-start: 2022
+start: 2023
 inline: false
 related_posts: false
 ---
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-(e.g., fingerprint liveness detection and deepfake detection), and
+(e.g., adversarial defense for fingerprint/face recognition, risk analysis in biometric authentication)
 
 ---
 

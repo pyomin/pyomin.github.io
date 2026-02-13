@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Reliable Media Integrity & Representation Learning
-date: 2025-11-07 16:11:00-0400
-start: 2022
+title: Additional Projects & Activities
+date: 2023-11-07 16:11:00-0400
+start: 2020
+end: 2022
 inline: false
 related_posts: false
 ---
