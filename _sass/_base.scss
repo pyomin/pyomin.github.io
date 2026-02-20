@@ -1102,3 +1102,10 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+
+@media (min-width: 800px) {
+  body:has(.cv-wide) .container {
+    max-width: 65% !important;
+  }
+}
