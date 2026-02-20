@@ -12,15 +12,15 @@
   "education": [
         {
       "institution": "",
-      "area": "Information Security",
-      "studyType": "B.S. at Seoul Women's University, Seoul, Korea",
+      "area": "Seoul Women's University, Seoul, Korea",
+      "studyType": "B.E. in Information Security",
       "date": "2023-02",
       "score": "10"
     },
     {
       "institution": "",
-      "area": "Computer Engineering",
-      "studyType": "M.S. at Hongik University, Seoul, Korea",
+      "area": "Hongik University, Seoul, Korea",
+      "studyType": "M.S. in Computer Engineering",
       "date": "2025-02",
       "score": "10",
       "courses": ["Advised by Youn Kyu Lee"]
