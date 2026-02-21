@@ -6,7 +6,7 @@ subtitle: #AI Research Engineer #<a href='#'>Affiliations</a>. Address. Contacts
 #M.S. candidate in Computer Engineering  # 
 profile:
   align: right
-  image: pmhong2.jpeg
+  image: pm.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Pyo Min Hong (she/her)</p>
