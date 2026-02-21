@@ -190,6 +190,11 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+.theme-text {
+  color: var(--global-theme-color) !important;
+}
+
+
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;
