@@ -140,6 +140,13 @@
       "startDate": "2022-09",
       "endDate": "2022-11"
     },
+    {
+      "name": "BigContest: Field of Data Analysis",
+      "summary": "Ministry of Science and ICT (MSIT), National Information Society Agency (NIA)",
+      "highlights": ["Analyzed user interaction data to predict loan application outcomes using Random Forest and XGBoost, evaluating feature importance and comparing model performance"],
+      "startDate": "2022-09",
+      "endDate": "2022-10"
+    },
       {
       "name": "K-Shield Junior 8th Cohort",
       "summary": "Ministry of Science and ICT (MSIT), Korea Internet & Security Agency (KISA)",
