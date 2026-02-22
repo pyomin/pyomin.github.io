@@ -63,13 +63,6 @@
       "endDate": "2024-11"
     },
     {
-      "name": "Enhancing Biometric System Robustness against Adversarial Attacks",
-      "summary": "Supported by National Research Foundation of Korea (NRF)",
-      "highlights": ["Assessed deep learning-based facial recognition systems by analyzing adversarial attack vulnerabilities and designing dependency-based evaluation scenarios for modular interaction testing"],
-      "startDate": "2023-03",
-      "endDate": "2024-12"
-    },
-    {
       "name": "Development of Integrated Framework for Automated Generation of Neural Network Applications and Optimization of Execution Environment",
       "summary": "Supported by Institute for Information communication Technology Planning (IITP)",
       "highlights": ["Led a team in developing a drag-and-drop-based visual interface for designing and inspecting deep learning architectures", "Designed and implemented neural network architectures, leveraging Docker to ensure reproducible environments"],
@@ -141,21 +134,18 @@
 
     "certificates": [
     {
-      "name": "K-Shield Junior 8th Cohort",
-      "summary": "Ministry of Science and ICT (MSIT), Korea Internet & Security Agency (KISA)",
-      "highlights": ["Developed a Linux-based forensics and analysis tool for automated incident response"],
-      "startDate": "2022-06",
-      "endDate": "2022-08"
-    }
-  ],
-
-    "interests": [
-    {
       "name": "Super Hackathon 2022 (NEXON X LIKELION)",
       "summary": "NEXON Korea",
       "highlights": ["Conceptualized and developed a story-driven RPG using Lua, focusing on user progression and engagement"],
       "startDate": "2022-09",
       "endDate": "2022-11"
+    },
+      {
+      "name": "K-Shield Junior 8th Cohort",
+      "summary": "Ministry of Science and ICT (MSIT), Korea Internet & Security Agency (KISA)",
+      "highlights": ["Completed an intensive program in cybersecurity fundamentals and incident response, culminating in the development of a Linux-based automated forensics tool"],
+      "startDate": "2022-06",
+      "endDate": "2022-08"
     },
     {
       "name": "Light IT Up Hackathon",
@@ -165,6 +155,8 @@
       "endDate": "2021-08"
     }
   ],
+
+
 
   "skills": [
     {
