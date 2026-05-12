@@ -24,6 +24,42 @@ Hello, I am Pyomin Hong. I received my master’s degree in Computer Engineering
 Following graduation, I had the privilege of continuing my research under the guidance of Prof. <a href='https://albert-no.github.io'>Albert No</a>. During this period, I expanded my research into secure generative modeling and language model security.
 
 I am broadly interested in **Trustworthy AI**. My research spans **(i)** **robust and secure AI** under adversarial settings, **(ii)** **media integrity analysis** such as liveness and deepfake detection, and **(iii)** **security and reliability** for generative models.
+<!-- 
+<br> -->
+
+<span id="type-effect"></span>
+
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+<style>
+
+  #type-effect {
+    font-style: italic;
+    
+  }
+  .ti-cursor {
+
+    color: var(--global-theme-color) !important;
+
+    font-style: normal !important;
+  }
+</style>
+
+<script>
+new TypeIt("#type-effect", {
+  speed: 50,
+  waitUntilVisible: true,
+  loop: true,
+  deleteSpeed: 30,
+  breakLines: false,
+  cursorChar: "|",
+})
+  .type("How can we build trustworthy AI in the real world?")
+  .pause(1500)
+  .delete()
+  .pause(500)
+  .go();
+</script>
 
 <!-- Deep Learning ·  AI Security  ·  Trustworthy AI ·  Generative AI  throughout 2025-->
 
